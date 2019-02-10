@@ -1,0 +1,907 @@
+body {
+    background-color: rgb(107, 47, 47)
+}
+* {
+    box-sizing: border-box;
+}
+.head {
+    width: 100%;
+    height: 160px;
+}
+.head .logo {
+    float: left;
+    width: 22%;
+    padding-left:200px;
+}
+ .head .search {
+    width: 32%;
+    float: left;
+    padding: 23px 110px;
+} 
+ .head .upload {
+     width: 12%;
+     float: left;
+     padding:25px;
+}
+ .head .userIcon {
+     width: 9%;
+     float: left;
+     padding:25px;
+ }
+ .head .welcomeUser {
+     width:25%;
+     float: left;
+ } 
+ .head .logo h1 {
+     color: white;
+ } 
+ .head .search input {
+     font-size: 30px;
+ }
+ .head .upload input {
+     font-size: 26px;
+ }
+ .head .userIcon i {
+     font-size: 37px;
+     color: white;
+ }
+ .head .welcomeUser  h3 {
+     color: white;
+     margin:0px;
+     padding-top: 25px
+ }
+ .head .welcomeUser p {
+     color:white;
+     margin:0px;
+ }
+ .head .menu ul li {
+     float: left;
+     padding: 10px;
+     color: white;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 100;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    letter-spacing: 5px;
+ }
+ .head .menu {
+     width: 100%;
+     float: left;
+     clear: both
+ }
+ .head .menu ul {
+     margin-left:270px;
+ }
+ /* Head Ends */
+ /* Main Starts */
+ /* MainTop Starts */
+ .main {
+     width: 100%;
+     height: 1200px;
+ }
+.main .mainTop {
+    width:100%;
+    height:400px;
+}
+.main .mainTop .videos {
+    float: left;
+    width: 60%;
+    height:100%;
+    padding-left:200px; 
+}
+.main .mainTop .videos .caption h2 {
+    color: white;
+    font-weight: 200;
+}
+.main .mainTop .videos .skills {
+    float: left;
+    height:71%;
+    width:62%; 
+    background-color: white;
+    position:relative;
+}
+.main .mainTop .videos .skills .bottomLeft {
+    position: absolute;
+    bottom:7px;
+    left:9px;
+}
+.main .mainTop .videos .skills .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+    margin:0px;
+}
+.main .mainTop .videos .skills .bottomLeft p {
+    margin: 0px;
+    color: rgb(107, 47, 47);
+}
+.main .mainTop .videos .example {
+    height: 33%;
+    width: 30%;
+    float: left;
+    clear: both;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.main .mainTop .videos .example .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainTop .videos .example .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainTop .videos .example2 {
+    height: 33%;
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+    position: relative;
+    background-color: white;
+}
+.main .mainTop .videos .example2 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainTop .videos .example2 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainTop .videos .example3 {
+    float: left;
+    background-color: white;
+    height: 33%;
+    width: 30%;
+    margin-top: -283px;
+    margin-left: 10px;
+    position: relative;
+}
+.main .mainTop .videos .example3 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainTop .videos .example3 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainTop .videos .example4 {
+    float: left;
+    background-color: white;
+    height: 33%;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: -133px;
+    position: relative;
+}
+.main .mainTop .videos .example4 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainTop .videos .example4 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainTop .videos .uploadOwn {
+    float: left;
+    background-color:rgb(107, 47, 47);
+    height: 33%;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    outline: 1px solid white;
+}
+.main .mainTop .videos .uploadOwn .bottomIcon {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+}
+.main .mainTop .videos .uploadOwn .bottomIcon i {
+    color:white;
+    font-size:38px;
+}
+.main .mainTop .videos .uploadOwn .text {
+    position:absolute;
+    right: 40px;
+    top: 50px;
+}
+.main .mainTop .videos .uploadOwn .text h4 {
+    color: white;
+    margin:0px;
+    font-weight: 800
+}
+.main .mainTop .videos .uploadOwn .text p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+}
+.main .mainTop .activity {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.main .mainTop .activity .caption h2{
+    color:white;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    width: 343px;
+    padding-bottom: 15px;
+}
+.main .mainTop .activity .johnStanker1 {
+    float: left;
+    clear:left;
+}
+.main .mainTop .activity .johnStanker1 .square {
+    float: left;
+    background-color:white;
+    width:80px;
+    height:80px;
+}
+.main .mainTop .activity .johnStanker1 .notification {
+    float: left;
+    height:80px;
+    width: 245px;
+    margin-left:20px;
+}
+.main .mainTop .activity .johnStanker1 .notification h3 {
+    margin:0px;
+    color: white;
+    font-weight:300;
+    padding-top: 10px;
+}
+.main .mainTop .activity .johnStanker1 .notification p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+} 
+.main .mainTop .activity .johnStanker2 {
+    float: left;
+    margin-top:10px;
+    clear:left;
+}
+.main .mainTop .activity .johnStanker2 .square {
+    float: left;
+    background-color:white;
+    width:80px;
+    height:80px;
+}
+.main .mainTop .activity .johnStanker2 .notification {
+    float: left;
+    height:80px;
+    width: 245px;
+    margin-left:20px;
+}
+.main .mainTop .activity .johnStanker2 .notification h3 {
+    margin:0px;
+    color: white;
+    font-weight:300;
+    padding-top: 10px;
+}
+.main .mainTop .activity .johnStanker2 .notification p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+} 
+.main .mainTop .activity .johnStanker3 {
+    float: left;
+    margin-top:10px;
+    clear:left;
+}
+.main .mainTop .activity .johnStanker3 .square {
+    float: left;
+    background-color:white;
+    width:80px;
+    height:80px;
+}
+.main .mainTop .activity .johnStanker3 .notification {
+    float: left;
+    height:80px;
+    width: 245px;
+    margin-left:20px;
+}
+.main .mainTop .activity .johnStanker3 .notification h3 {
+    margin:0px;
+    color: white;
+    font-weight:300;
+    padding-top: 10px;
+}
+.main .mainTop .activity .johnStanker3 .notification p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+} 
+.main .mainTop .activity .johnStanker4 {
+    float: left;
+    margin-top:10px;
+    clear:left;
+}
+.main .mainTop .activity .johnStanker4 .square {
+    float: left;
+    background-color:white;
+    width:80px;
+    height:80px;
+}
+.main .mainTop .activity .johnStanker4 .notification {
+    float: left;
+    height:80px;
+    width: 245px;
+    margin-left:20px;
+}
+.main .mainTop .activity .johnStanker4 .notification h3 {
+    margin:0px;
+    color: white;
+    font-weight:300;
+    padding-top: 10px;
+}
+.main .mainTop .activity .johnStanker4 .notification p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+} 
+.main .mainTop .activity .johnStanker5 {
+    float: left;
+    margin-top:10px;
+    clear:left;
+}
+.main .mainTop .activity .johnStanker5 .square {
+    float: left;
+    background-color:white;
+    width:80px;
+    height:80px;
+}
+.main .mainTop .activity .johnStanker5 .notification {
+    float: left;
+    height:80px;
+    width: 245px;
+    margin-left:20px;
+}
+.main .mainTop .activity .johnStanker5 .notification h3 {
+    margin:0px;
+    color: white;
+    font-weight:300;
+    padding-top: 10px;
+}
+.main .mainTop .activity .johnStanker5 .notification p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+}
+/* Main Top Ends  */
+/* Main Bottom Starts */
+.main .mainBottom {
+    float: left;
+    clear: both;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+}
+.main .mainBottom .people {
+    float: left;
+    width: 60%;
+    height:100%;
+    padding-left:200px; 
+}
+.main .mainBottom .people .caption h2 {
+    color: white;
+    font-weight: 200;
+}
+.main .mainBottom .people .skills {
+    float: left;
+    height:71%;
+    width:62%; 
+    background-color: white;
+    position:relative;
+}
+.main .mainBottom .people .skills .bottomLeft {
+    position: absolute;
+    bottom:7px;
+    left:9px;
+}
+.main .mainBottom .people .skills .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+    margin:0px;
+}
+.main .mainBottom .people .skills .bottomLeft p {
+    margin: 0px;
+    color: rgb(107, 47, 47);
+}
+.main .mainBottom .people .example {
+    height: 33%;
+    width: 30%;
+    float: left;
+    clear: both;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.main .mainBottom .people .example .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .people .example .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .people .example2 {
+    height: 33%;
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+    position: relative;
+    background-color: white;
+}
+.main .mainBottom .people .example2 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .people .example2 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .people .example3 {
+    float: left;
+    background-color: white;
+    height: 33%;
+    width: 30%;
+    margin-top: -283px;
+    margin-left: 10px;
+    position: relative;
+}
+.main .mainBottom .people .example3 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .people .example3 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .people .example4 {
+    float: left;
+    background-color: white;
+    height: 33%;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: -133px;
+    position: relative;
+}
+.main .mainBottom .people .example4 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .people .example4 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .people .show {
+    float: left;
+    background-color:rgb(107, 47, 47);
+    height: 33%;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    outline: 1px solid white;
+}
+.main .mainBottom .people .show .bottomIcon {
+    position: absolute;
+    bottom: 45px;
+    left: 40px;
+}
+.main .mainBottom .people .show .bottomIcon i {
+    color:white;
+    font-size:38px;
+}
+.main .mainBottom .people .show .text {
+    position:absolute;
+    right: 55px;
+    top: 50px;
+}
+.main .mainBottom .people .show .text h4 {
+    color: white;
+    margin:0px;
+    font-weight: 800
+}
+.main .mainBottom .people .show .text p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+}
+.main .mainBottom .sidebar {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.main .mainBottom .sidebar .channels {
+    height: 790px;
+    width: 343px;
+    border-bottom: 1px solid white;
+}
+.main .mainBottom .sidebar .channels .caption h2 {
+    color: white;
+    font-weight:200;
+    border-bottom: 1px solid white;
+}
+.main .mainBottom .sidebar .channels .Google {
+    float: left;
+    background-color: white;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Google .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Google .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Twitter {
+    float: left;
+    background-color: white;
+    clear: both;
+    margin-top: 5px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Twitter .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Twitter .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Linkedin {
+    float: left;
+    background-color: white;
+    clear: both;
+    margin-top: 5px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Linkedin .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Linkedin .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Yandex {
+    float: left;
+    background-color: white;
+    clear: both;
+    margin-top: 5px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Yandex .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Yandex .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Network {
+    float: left;
+    background-color: white;
+    clear: both;
+    margin-top: 5px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Network .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Network .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Youtube {
+    float: left;
+    background-color: white;
+    margin-top: -535px;
+    margin-left: 20px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Youtube .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Youtube .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Instagram {
+    float: left;
+    background-color: white;
+    margin-top: -400px;
+    margin-left: 20px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Instagram .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Instagram .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Yaboo {
+    float: left;
+    background-color: white;
+    margin-top: -265px;
+    margin-left: 20px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Yaboo .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Yaboo .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Gmail {
+    float: left;
+    background-color: white;
+    margin-top: -130px;
+    margin-left: 20px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Gmail .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Gmail .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .sidebar .channels .Other {
+    float: left;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    width:130px;
+    height: 130px;
+    position: relative;
+}
+.main .mainBottom .sidebar .channels .Other .bottomLeft {
+    position: absolute;
+    left:9px;
+    bottom:-16px;
+} 
+.main .mainBottom .sidebar .channels .Other .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+}
+.main .mainBottom .documents {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.main .mainBottom .documents .caption {
+    padding-left: 200px;
+    padding-top:125px;
+}
+.main .mainBottom .documents .caption h2 {
+    color:white;
+    font-weight: 200;
+}
+.main .mainBottom .documents .skills {
+    float: left;
+    height:284px;
+    width:458.91px; 
+    background-color: white;
+    position:relative;
+    margin-left: 200px;
+}
+.main .mainBottom .documents .skills .bottomLeft {
+    position: absolute;
+    bottom:7px;
+    left:9px;
+}
+.main .mainBottom .documents .skills .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size: 18px;
+    margin:0px;
+}
+.main .mainBottom .documents .skills .bottomLeft p {
+    margin: 0px;
+    color: rgb(107, 47, 47);
+}
+.main .mainBottom .documents .example {
+    height: 33%;
+    width: 222px;
+    margin-left: 200px;
+    float: left;
+    clear: both;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.main .mainBottom .documents .example .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .documents .example .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .documents .example2 {
+    height: 33%;
+    width: 222px;
+    margin-left: 15px;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.main .mainBottom .documents .example2 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .documents .example2 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .documents .example3 {
+    height: 33%;
+    width: 222px;
+    margin-left: 10px;
+    float: left;
+    background-color: white;
+    margin-top: -283px;
+    position: relative;
+}
+.main .mainBottom .documents .example3 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .documents .example3 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .documents .example4 {
+    height: 33%;
+    width: 222px;
+    margin-left: 10px;
+    float: left;
+    background-color: white;
+    margin-top: -133px;
+    position: relative;
+}
+.main .mainBottom .documents .example4 .bottomLeft {
+    position: absolute;
+    bottom: -16px;
+    left: 9px;
+}
+.main .mainBottom .documents .example4 .bottomLeft h5 {
+    color:rgb(107, 47, 47);
+    font-size:18px;
+}
+.main .mainBottom .documents .share {
+    float: left;
+    background-color:rgb(107, 47, 47);
+    height: 33%;
+    width: 222px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    outline: 1px solid white;
+}
+.main .mainBottom .documents .share .shareIcon {
+    position: absolute;
+    bottom: 45px;
+    left: 33px;
+}
+.main .mainBottom .documents .share .shareIcon i {
+    color:white;
+    font-size:38px;
+}
+.main .mainBottom .documents .share .text {
+    position:absolute;
+    right: 39px;
+    top: 50px;
+}
+.main .mainBottom .documents .share .text h4 {
+    color: white;
+    margin:0px;
+    font-weight: 800
+}
+.main .mainBottom .documents .share .text p {
+    color:white;
+    margin:0px;
+    font-weight: 100;
+}
+/* Main Bottom Ends */
+/* Main Ends */
+/* Footer Starts */
+.footer {
+    width: 100%;
+    height: 140px;
+    float: left;
+    clear: both;
+}
+.footer .connection {
+    width: 1100px;
+    float: left;
+    height: 50%;
+    margin-top: 355px;
+    margin-left: 200px;
+    border-top: 1px solid white;
+    padding-top: 10px
+}
+.footer .connection i {
+    color: white;
+    font-size:37px;
+}  
+.footer .panel {
+    width: 100%;
+    height: 50%;
+    float: left;
+    clear: both;
+    margin-left: 155px;
+    margin-top: -25px;
+} 
+.footer .panel ul li {
+    float: left;
+    padding:10px;
+    list-style-type: none;
+    color :white;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
